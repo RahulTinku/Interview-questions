@@ -16,7 +16,7 @@ const fibo = (n) => {
     return fibo(n - 1) + fibo(n - 2);
   }
 };
-
+// 
 const myFibo = memoize(fibo);
 
 myFibo(5);

@@ -55,7 +55,7 @@ solution:- let z = [... new Set([].concat(...arr))]
 
 ### this will have the reference of parent scope.
 
-this will have the refernce of parent context. from Where the function is calling, this will have the refernce of that context.
+This will have the refernce of parent context. from Where the function is calling, this will have the refernce of that context.
 
 o/p expected 2 but gives 1 since this.growOld is attached to window,
 

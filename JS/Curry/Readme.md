@@ -18,7 +18,7 @@ function curry(fn){
     }
 }
 
-//uses
+// uses
 function sum(a,b){
     return a+b
 }

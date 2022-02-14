@@ -8,7 +8,7 @@ console.log(y)
 let y =20
 ```
 
-### difference in let and var
+### difference in let and var.
 
 ```
 for(var i=0; i<5; i++){​​​

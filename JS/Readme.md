@@ -3,7 +3,7 @@
 ## arrow function in prototype
 
 String.prototype.myConcat = function(x){return this+x}
-console.log('Hello - '.myConcat('Rahul')) // O/P -- Hello - Rahul
+console.log('Hello - '.myConcat('Rahul')) // O/P -- `Hello - Rahul`
 
 ---
 

@@ -16,3 +16,7 @@ console.log('Hello - '.myConcatArrow('Rahul')) // O/P -- [Object global] Rahul
 
 Promise is the answer to the callback hell problem. With the introduction of async/await syntax, Promise is getting so popular. But if you work with Angular, you’ll probably need an Observable from Promise sometimes. There are few ways for you to do so.
 [find the read here](https://trungk18.com/experience/convert-promise-to-observable/)
+
+## difference between switchMap and mergeMap
+
+switchMap cancels previous HTTP requests that are still in progress, while mergeMap lets all of them finish.

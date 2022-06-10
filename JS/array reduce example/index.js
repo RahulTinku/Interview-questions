@@ -26,16 +26,14 @@ var obj = [
     name: 'elon',
     age: 30,
   },
-  {
-    name: 'misty',
-    age: 1,
-  },
 ];
 
 const output = obj.reduce((acc, curr) => {
-  if (acc[curr]) {
-    acc[curr] = ++acc[curr];
+  if (acc[curr.age]) {
+    acc[curr.age] = ++acc[curr.age];
   } else {
-    acc[curr] = 1;
+    acc[curr.age] = 1;
   }
+  return acc;
 }, {});
+console.log(output);

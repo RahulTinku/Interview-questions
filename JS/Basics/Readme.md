@@ -75,11 +75,34 @@ setTimeout(function() { console.log(person.age); },2000);
 ### remove duplicates from array of objects
 
 ```
-const arr = [{a:1}, {a:1}, {b:2}, {c,3}]
-const unique = (x) => [...new Map(x.map((z) => ([JSON.stringify(z),z])).values()];
+var arrOfObj = [
+  {
+    id: 1,
+    name: 'abc',
+    age: 27,
+  },
+  {
+    id: 2,
+    name: 'pqr',
+    age: 27,
+  },
+  {
+    id: 1,
+    name: 'abc',
+    age: 27,
+  },
+];
 
-unique(arr)
-// [{a: 1},{b: 2},{c: 3}]
+var setObj = new Set(); // create key value pair from array of array
+
+var result = arrOfObj.reduce((acc, item) => {
+  if (!setObj.has(item.id)) {
+    setObj.add(item.id, item);
+    acc.push(item);
+  }
+  return acc;
+}, []); //converting back to array from mapobject
+console.log(result);
 ```
 
 ### Write a simple function (less than 160 characters) that returns a boolean indicating whether or not a string is a palindrome.

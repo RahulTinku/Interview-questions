@@ -66,3 +66,6 @@ currySum(1,2,3) // 6, still callable normally
 currySum(1)(2,3) // 6, currying for last argument
 currySum(1)(2)(3)  // 6, full curry
 ```
+
+
+READ(https://javascript.info/currying-partials)

@@ -1,6 +1,6 @@
 ### Understanding Deep and Shallow Copy
 
-[img](./img/copydiff.png)
+[img](https://github.com/RahulTinku/Interview-questions/tree/main/JS/Object/img/copydiff.png)
 
 a shallow copy has common data shared between the copy and the original.
 a deep copy doesnot have any data shared
@@ -91,7 +91,7 @@ var destinationObject = JSON.parse(stringObject);
 console.dir(destinationObject)
 ```
 
-[img](./img/parse.png)
+[img](https://github.com/RahulTinku/Interview-questions/tree/main/JS/Object/img/parse.png)
 
 3. Copy Objects with “Object.assign”
 
@@ -118,7 +118,7 @@ console.dir(destinationObject)
   ```
 
   The output for the code above is shown below. We can see that the non-enumerable property salary is not the part of the object created.
-  [img](./img/assign.png)
+  [img](https://github.com/RahulTinku/Interview-questions/tree/main/JS/Object/img/assign.png)
 
   2. Object.assign does not copy prototype properties and methods.
   3. Does not create a deep copy of the source object
@@ -162,7 +162,7 @@ console.dir(destinationObject)
     ```
 
     In the above code, we are using Object.create, to create a new object. Using this method, we do not add properties to the new object. The new object we have created does not contain any properties like name, age, and salary. See the image below:
-    [img](./img/proto.png)
+    [img](https://github.com/RahulTinku/Interview-questions/tree/main/JS/Object/img/proto.png)
 
     As stated earlier, the object userInfo is not available in the prototype chain of the newly created object. So when we access the property “name”, it will be accessed from the prototypal chain of the object.
 

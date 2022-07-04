@@ -20,4 +20,6 @@
 
 * child => parent => grandparent => document
 
-![Image]()
+![Image](https://github.com/RahulTinku/Interview-questions/blob/main/JS/event/Capture.PNG)
+
+Watch(https://www.youtube.com/watch?v=XF1_MlZ5l6M)

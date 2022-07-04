@@ -49,3 +49,4 @@ btns.forEach(btn => {
 }
 ```
 ![event](https://github.com/RahulTinku/Interview-questions/blob/main/JS/event/Capture1.PNG)
+Watch(https://www.youtube.com/watch?v=RM8c-NE8f4A)

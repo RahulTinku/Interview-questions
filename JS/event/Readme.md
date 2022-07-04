@@ -48,3 +48,4 @@ btns.forEach(btn => {
     }
 }
 ```
+![event](https://github.com/RahulTinku/Interview-questions/blob/main/JS/event/Capture1.PNG)

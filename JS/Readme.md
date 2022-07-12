@@ -20,3 +20,7 @@ Promise is the answer to the callback hell problem. With the introduction of asy
 ## difference between switchMap and mergeMap
 
 switchMap cancels previous HTTP requests that are still in progress, while mergeMap lets all of them finish.
+
+---
+## Read about binary tree and traversal(BFS & DFS(preOrder, postOrder & inOrder)
+[Read](https://www.digitalocean.com/community/tutorials/js-tree-traversal)

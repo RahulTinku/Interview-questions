@@ -105,7 +105,7 @@ var result = arrOfObj.reduce((acc, item) => {
 console.log(result);
 ```
 
-### Write a simple function (less than 160 characters) that returns a boolean indicating whether or not a string is a palindrome.
+###  Write a simple function (less than 160 characters) that returns a boolean indicating whether or not a string is a palindrome.
 
 ```
 function isPalindrome(str) {

@@ -1,4 +1,3 @@
-
 0. What is Lifting State Up in React?
 1. What is React context?
 2. What are different ways to add CSS in your app?

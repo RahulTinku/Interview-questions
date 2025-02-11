@@ -15,7 +15,7 @@ To avoid props drilling, you can use one of the following techniques:
 
 👉 Answer: Code splitting involves breaking your application into smaller chunks (bundling) and loading them on demand. React.lazy and Suspense are used to achieve code splitting, which can significantly reduce the initial loading time of your application.
 
-Code example using React.lazy and Suspense:
+Code example using React.lazy and Suspense: 
 
 import React, { lazy, Suspense } from 'react';
 

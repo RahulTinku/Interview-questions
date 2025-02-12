@@ -20,7 +20,7 @@ var obj = [
   },
   {
     name: 'sonal',
-    age: 31,
+    age: 31, 
   },
   {
     name: 'elon',

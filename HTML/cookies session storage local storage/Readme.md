@@ -9,7 +9,7 @@ localStorage is a way to store data on the client’s computer. It allows the sa
 - stores data with no expiration date
 - storage limit is about `5MB`
 - data is never transferred to the server
-
+ 
 ### Cons
 
 - plaintext, hence not secure by design

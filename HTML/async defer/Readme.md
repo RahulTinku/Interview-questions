@@ -2,7 +2,7 @@
 
 async and defer attributes are used while loading a script in html page
 
-eg
+eg 
 
 ```
 <script defer src=""></script>

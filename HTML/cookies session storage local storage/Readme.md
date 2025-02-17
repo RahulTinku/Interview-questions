@@ -11,7 +11,7 @@ localStorage is a way to store data on the client’s computer. It allows the sa
 - data is never transferred to the server
  
 ### Cons
-
+ 
 - plaintext, hence not secure by design
 - limited to string data, hence need to be serialized
 - can only be read on client-side

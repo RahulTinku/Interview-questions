@@ -6,7 +6,7 @@
 5. How does create-react-app work?
 
 6. What is Tree Shaking?
-7. Difference b/w dependency and devDependency 
+7. Difference b/w dependency and devDependency
 8. What is npx and npm?
 9. Difference b/w package .json and package-lock .json
 10. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent());

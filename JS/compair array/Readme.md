@@ -13,7 +13,7 @@ equals(a, b); // true
 
 While this seems like a great, short and easily understandable solution, it falls short on some edge cases where different values' serialized string is the same. For example:
 
-```
+``` 
 const str = 'a';
 const strObj = new String('a');
 str === strObj; // false

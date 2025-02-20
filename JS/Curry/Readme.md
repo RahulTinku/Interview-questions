@@ -12,7 +12,7 @@ In othr wors, curry of `fn(a,b)` will be converted into `f(a)(b)`
 ```
 function curry(fn){
     return function(a){
-        return function(b){
+        return function(b){ 
             return fn(a+b)
         }
     }

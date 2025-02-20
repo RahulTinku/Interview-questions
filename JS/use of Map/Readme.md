@@ -8,7 +8,7 @@
     let count = 0;
     for(let a of ar){
         if(myMap.has(a)){
-            count++
+            count++ 
             myMap.delete(a)
         }else{
             myMap.set(a,1)

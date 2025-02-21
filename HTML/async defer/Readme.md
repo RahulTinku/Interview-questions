@@ -1,7 +1,6 @@
 ## what are async and deffer attribute in html script
 
 async and defer attributes are used while loading a script in html page
-
 eg 
 
 ```

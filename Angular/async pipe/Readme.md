@@ -6,7 +6,7 @@ In Angular, the async pipe does these three tasks,
 
 - 👉It subscribes to an observable or a promise and returns the last emitted value
 
-[Note: Promise returns only one value anyway]
+[Note: Promise returns only one value anyway] 
 
 - 👉Whenever a new value is emitted, it makes the component to be checked. That means Angular will run Change Detector for that component in the next cycle
 

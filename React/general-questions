@@ -1,6 +1,6 @@
 1. useMemo - What it is and why it is used? Does this increase performance or reduces it by extensive uses?
 2. Difference in <> & React.Fragment - In React.Fragment you can use {key} while iterating but not in <>
-   eg.
+   eg. 
 
 ```jsx
 return (

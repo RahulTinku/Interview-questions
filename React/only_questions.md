@@ -32,6 +32,41 @@ function App() {
 }
 
 ```
+In this case, the DisplayText component doesn't reflect the changes made in InputBox because the state is local to InputBox.
+<hr />
+After Lifting State Up (State in Parent)
+
+```js
+import { useState } from "react";
+
+function InputBox({ text, setText }) {
+  return (
+    <input 
+      type="text" 
+      value={text} 
+      onChange={(e) => setText(e.target.value)} 
+    />
+  );
+}
+
+function DisplayText({ text }) {
+  return <p>{text}</p>;
+}
+
+function App() {
+  const [text, setText] = useState("");
+
+  return (
+    <div>
+      <InputBox text={text} setText={setText} />
+      <DisplayText text={text} />
+    </div>
+  );
+}
+
+```
+
+
 2. 
 3. What is React context?
 4. What are different ways to add CSS in your app?

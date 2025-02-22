@@ -4,7 +4,7 @@ Ans -
 Lifting State Up in React refers to the practice of moving the state from a child component to a common ancestor (usually a parent component) so that multiple child components can share and sync data efficiently.
 
 Example
-Let's say we have two components, InputBox and DisplayText, that need to share the same text state.
+Let's say we have two components, `InputBox` and `DisplayText`, that need to share the same text state.
 ```js
 function InputBox() {
   const [text, setText] = useState("");

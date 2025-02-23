@@ -1,4 +1,4 @@
-0. What is Lifting State Up in React?
+1. What is Lifting State Up in React?
 
 Ans -
 Lifting State Up in React refers to the practice of moving the state from a child component to a common ancestor (usually a parent component) so that multiple child components can share and sync data efficiently.
@@ -65,12 +65,11 @@ function App() {
 }
 
 ```
-
-
-2. 
-3. What is React context?
+ 
+2. What is React context?
 
 Ans-
+<br />
 React Context is a built-in state management solution that allows you to share data across components without having to pass props manually at every level. It helps avoid prop drilling and makes state management easier in larger applications.
  
 5. What are different ways to add CSS in your app?

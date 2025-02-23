@@ -69,28 +69,32 @@ function App() {
 
 2. 
 3. What is React context?
-4. What are different ways to add CSS in your app?
-5. What is Hot Module Replacement?
-6. What is the use of Parcel, Vite, Webpack?
-7. How does create-react-app work?
 
-8. What is Tree Shaking?
-9. Difference b/w dependency and devDependency
-10. What is npx and npm?
-11. Difference b/w package .json and package-lock .json
-12. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
+Ans-
+React Context is a built-in state management solution that allows you to share data across components without having to pass props manually at every level. It helps avoid prop drilling and makes state management easier in larger applications.
+ 
+5. What are different ways to add CSS in your app?
+6. What is Hot Module Replacement?
+7. What is the use of Parcel, Vite, Webpack?
+8. How does create-react-app work?
 
-13. What is React.Fragment?
-14. What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
-15. What if 2 components are given will the state change in one component will effect the other component’s state (child)?
-16. What is the use of return in useEffect ?
-17. Difference b/w client-side routing and server-side routing?
+9. What is Tree Shaking?
+10. Difference b/w dependency and devDependency
+11. What is npx and npm?
+12. Difference b/w package .json and package-lock .json
+13. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
 
-18. Explain the concept of code splitting and its benefits in React.
-19. How does React handle routing and navigation?
-20. What are higher-order components (HOC) in React?
-21. What are controlled and uncontrolled components?
-22. Explain the concept of reconciliation in React.
+14. What is React.Fragment?
+15. What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
+16. What if 2 components are given will the state change in one component will effect the other component’s state (child)?
+17. What is the use of return in useEffect ?
+18. Difference b/w client-side routing and server-side routing?
+
+19. Explain the concept of code splitting and its benefits in React.
+20. How does React handle routing and navigation?
+21. What are higher-order components (HOC) in React?
+22. What are controlled and uncontrolled components?
+23. Explain the concept of reconciliation in React.
 
 --- 
 

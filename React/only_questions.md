@@ -72,13 +72,12 @@ Ans-
 <br />
 React Context is a built-in state management solution that allows you to share data across components without having to pass props manually at every level. It helps avoid prop drilling and makes state management easier in larger applications.
  
-5. What are different ways to add CSS in your app?
+3. What are different ways to add CSS in your app?
 Ans-
-<br />
-  a. External CSS Files
-  b.  Inline Styles
-  c. CSS Modules
-```js
+  - External CSS Files
+  - Inline Styles
+  - CSS Modules
+```
    // App.module.css
 .container {
   background-color: lightblue;
@@ -100,8 +99,8 @@ const App = () => (
 
 export default App;
 ```
-  d. Preprocessors (SASS/SCSS, LESS)
-  e. CSS-in-JS Libraries
+  -  Preprocessors (SASS/SCSS, LESS)
+  -   CSS-in-JS Libraries
 ```
 import styled from 'styled-components';
 

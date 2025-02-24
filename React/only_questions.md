@@ -73,27 +73,79 @@ Ans-
 React Context is a built-in state management solution that allows you to share data across components without having to pass props manually at every level. It helps avoid prop drilling and makes state management easier in larger applications.
  
 5. What are different ways to add CSS in your app?
-6. What is Hot Module Replacement?
-7. What is the use of Parcel, Vite, Webpack?
-8. How does create-react-app work?
+Ans-
+<br />
+  a. External CSS Files
+  b.  Inline Styles
+  c. CSS Modules
+```js
+   // App.module.css
+.container {
+  background-color: lightblue;
+  padding: 20px;
+}
+.title {
+  color: navy;
+}
 
-9. What is Tree Shaking?
-10. Difference b/w dependency and devDependency
-11. What is npx and npm?
-12. Difference b/w package .json and package-lock .json
-13. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
+// App.js
+import React from 'react';
+import styles from './App.module.css'; // Import CSS Module
 
-14. What is React.Fragment?
-15. What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
-16. What if 2 components are given will the state change in one component will effect the other component’s state (child)?
-17. What is the use of return in useEffect ?
-18. Difference b/w client-side routing and server-side routing?
+const App = () => (
+  <div className={styles.container}>
+    <h1 className={styles.title}>Hello, world!</h1>
+  </div>
+);
 
-19. Explain the concept of code splitting and its benefits in React.
-20. How does React handle routing and navigation?
-21. What are higher-order components (HOC) in React?
-22. What are controlled and uncontrolled components?
-23. Explain the concept of reconciliation in React.
+export default App;
+```
+  d. Preprocessors (SASS/SCSS, LESS)
+  e. CSS-in-JS Libraries
+```
+import styled from 'styled-components';
+
+const Container = styled.div`
+  background-color: lightblue;
+  padding: 20px;
+`;
+
+const Title = styled.h1`
+  color: navy;
+`;
+
+const App = () => (
+  <Container>
+    <Title>Hello, world!</Title>
+  </Container>
+);
+
+export default App;
+
+```
+
+
+7. What is Hot Module Replacement?
+8. What is the use of Parcel, Vite, Webpack?
+9. How does create-react-app work?
+
+10. What is Tree Shaking?
+11. Difference b/w dependency and devDependency
+12. What is npx and npm?
+13. Difference b/w package .json and package-lock .json
+14. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
+
+15. What is React.Fragment?
+16. What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
+17. What if 2 components are given will the state change in one component will effect the other component’s state (child)?
+18. What is the use of return in useEffect ?
+19. Difference b/w client-side routing and server-side routing?
+
+20. Explain the concept of code splitting and its benefits in React.
+21. How does React handle routing and navigation?
+22. What are higher-order components (HOC) in React?
+23. What are controlled and uncontrolled components?
+24. Explain the concept of reconciliation in React.
 
 --- 
 

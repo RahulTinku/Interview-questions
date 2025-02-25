@@ -123,7 +123,10 @@ export default App;
 ```
 
 
-7. What is Hot Module Replacement?
+4. What is Hot Module Replacement?
+
+Hot Module Replacement (HMR) is a feature in React (via Webpack) that allows modules (like components, styles, etc.) to be updated without requiring a full page reload. This makes development faster by preserving the application state while making changes.
+
 8. What is the use of Parcel, Vite, Webpack?
 9. How does create-react-app work?
 

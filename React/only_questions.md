@@ -127,7 +127,10 @@ export default App;
 
 Hot Module Replacement (HMR) is a feature in React (via Webpack) that allows modules (like components, styles, etc.) to be updated without requiring a full page reload. This makes development faster by preserving the application state while making changes.
 
-8. What is the use of Parcel, Vite, Webpack?
+5. What is the use of Parcel, Vite, Webpack?
+Parcel, Vite, and Webpack are JavaScript bundlers used in front-end development to bundle and optimize code for production. They help in managing dependencies, optimizing assets, and improving development speed. Let’s break them down:
+
+
 9. How does create-react-app work?
 
 10. What is Tree Shaking?

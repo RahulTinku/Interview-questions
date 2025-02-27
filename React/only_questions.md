@@ -124,33 +124,37 @@ export default App;
 
 
 4. What is Hot Module Replacement?
-   
+```
   Hot Module Replacement (HMR) is a feature in React (via Webpack) that allows modules (like components, styles, etc.) to be updated without requiring a full page reload. This makes development faster by preserving the application state while making changes.
+```
 
 6. What is the use of Parcel, Vite, Webpack?
-   
+```
   Parcel, Vite, and Webpack are JavaScript bundlers used in front-end development to bundle and optimize code for production. They help in managing dependencies, optimizing assets, and improving development speed. Let’s break them down:
-
+```
 
 9. How does create-react-app work?
+```
+create-react-app is a tool that sets up a new React project with a well-structured development environment. It automates much of the initial setup so you can get started building your app immediately without needing to worry about configuring build tools like Webpack, Babel, or ESLint.
+```
 
-10. What is Tree Shaking?
-11. Difference b/w dependency and devDependency
-12. What is npx and npm?
-13. Difference b/w package .json and package-lock .json
-14. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
+11. What is Tree Shaking?
+12. Difference b/w dependency and devDependency
+13. What is npx and npm?
+14. Difference b/w package .json and package-lock .json
+15. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
 
-15. What is React.Fragment?
-16. What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
-17. What if 2 components are given will the state change in one component will effect the other component’s state (child)?
-18. What is the use of return in useEffect ?
-19. Difference b/w client-side routing and server-side routing?
+16. What is React.Fragment?
+17. What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
+18. What if 2 components are given will the state change in one component will effect the other component’s state (child)?
+19. What is the use of return in useEffect ?
+20. Difference b/w client-side routing and server-side routing?
 
-20. Explain the concept of code splitting and its benefits in React.
-21. How does React handle routing and navigation?
-22. What are higher-order components (HOC) in React?
-23. What are controlled and uncontrolled components?
-24. Explain the concept of reconciliation in React.
+21. Explain the concept of code splitting and its benefits in React.
+22. How does React handle routing and navigation?
+23. What are higher-order components (HOC) in React?
+24. What are controlled and uncontrolled components?
+25. Explain the concept of reconciliation in React.
 
 --- 
 

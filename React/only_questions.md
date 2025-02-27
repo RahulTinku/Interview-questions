@@ -139,22 +139,26 @@ create-react-app is a tool that sets up a new React project with a well-structur
 ```
 
 11. What is Tree Shaking?
-12. Difference b/w dependency and devDependency
-13. What is npx and npm?
-14. Difference b/w package .json and package-lock .json
-15. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
+```
+Tree shaking is a technique used in JavaScript bundlers (like Webpack, Rollup, and esbuild) to eliminate unused code from the final bundle, reducing the size of the output file and improving performance.
+```
+    
+13. Difference b/w dependency and devDependency
+14. What is npx and npm?
+15. Difference b/w package .json and package-lock .json
+16. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
 
-16. What is React.Fragment?
-17. What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
-18. What if 2 components are given will the state change in one component will effect the other component’s state (child)?
-19. What is the use of return in useEffect ?
-20. Difference b/w client-side routing and server-side routing?
+17. What is React.Fragment?
+18. What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
+19. What if 2 components are given will the state change in one component will effect the other component’s state (child)?
+20. What is the use of return in useEffect ?
+21. Difference b/w client-side routing and server-side routing?
 
-21. Explain the concept of code splitting and its benefits in React.
-22. How does React handle routing and navigation?
-23. What are higher-order components (HOC) in React?
-24. What are controlled and uncontrolled components?
-25. Explain the concept of reconciliation in React.
+22. Explain the concept of code splitting and its benefits in React.
+23. How does React handle routing and navigation?
+24. What are higher-order components (HOC) in React?
+25. What are controlled and uncontrolled components?
+26. Explain the concept of reconciliation in React.
 
 --- 
 

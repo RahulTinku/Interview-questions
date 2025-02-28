@@ -1,4 +1,4 @@
-1. What is Lifting State Up in React?
+## What is Lifting State Up in React?
 
 Ans -
 Lifting State Up in React refers to the practice of moving the state from a child component to a common ancestor (usually a parent component) so that multiple child components can share and sync data efficiently.
@@ -66,7 +66,7 @@ function App() {
 
 ```
  
-2. What is React context?
+## What is React context?
 
 Ans-
 <br />
@@ -123,27 +123,27 @@ export default App;
 ```
 
 
-4. What is Hot Module Replacement?
+## What is Hot Module Replacement?
 ```
   Hot Module Replacement (HMR) is a feature in React (via Webpack) that allows modules (like components, styles, etc.) to be updated without requiring a full page reload. This makes development faster by preserving the application state while making changes.
 ```
 
-6. What is the use of Parcel, Vite, Webpack?
+## What is the use of Parcel, Vite, Webpack?
 ```
   Parcel, Vite, and Webpack are JavaScript bundlers used in front-end development to bundle and optimize code for production. They help in managing dependencies, optimizing assets, and improving development speed. Let’s break them down:
 ```
 
-9. How does create-react-app work?
+## How does create-react-app work?
 ```
 create-react-app is a tool that sets up a new React project with a well-structured development environment. It automates much of the initial setup so you can get started building your app immediately without needing to worry about configuring build tools like Webpack, Babel, or ESLint.
 ```
 
-11. What is Tree Shaking?
+## What is Tree Shaking?
 ```
 Tree shaking is a technique used in JavaScript bundlers (like Webpack, Rollup, and esbuild) to eliminate unused code from the final bundle, reducing the size of the output file and improving performance.
 ```
     
-13. Difference b/w dependency and devDependency
+## Difference b/w dependency and devDependency
 ```
 Dependencies:
 

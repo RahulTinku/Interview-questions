@@ -144,6 +144,32 @@ Tree shaking is a technique used in JavaScript bundlers (like Webpack, Rollup, a
 ```
     
 13. Difference b/w dependency and devDependency
+```
+Dependencies:
+
+Purpose:
+These are the packages that your application needs to run in a production environment.
+They are essential for the core functionality of your software.
+Usage:
+When you deploy your application, these dependencies are required for it to function correctly.
+Examples include frameworks like Express.js or libraries for database interaction.
+Installation:
+When you run npm install, these packages are installed.
+devDependencies:
+
+Purpose:
+These are packages that are only needed during the development process.
+They are not required for the application to run in production.
+Usage:
+These are typically used for tasks like:
+Testing (e.g., Mocha, Jest)
+Linting (e.g., ESLint)
+Building/compiling (e.g., Webpack, Babel)
+Installation:
+These packages are installed when you run npm install in a development environment.
+However, they are typically excluded when installing dependencies in a production environment (e.g., when using npm install --production).
+```
+
 14. What is npx and npm?
 15. Difference b/w package .json and package-lock .json
 16. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 

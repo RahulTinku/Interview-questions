@@ -1,4 +1,3 @@
-
 ## What is Props Drilling in React? How can you avoid that?
 
 Props drilling in React refers to the process of passing props down through multiple levels of nested components. It happens when a component needs to pass data or functions to its child component, and then that child component needs to pass it further down to its own child component, and so on.

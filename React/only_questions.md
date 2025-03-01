@@ -171,7 +171,6 @@ However, they are typically excluded when installing dependencies in a productio
 ```
 
 ## What is npx and npm?
-```
 Both npx and npm are part of Node.js, but they serve different purposes.
 
 | Feature	| npx	| npm |
@@ -183,7 +182,6 @@ Both npx and npm are part of Node.js, but they serve different purposes.
 | Use Case | Running one-time CLI tools (e.g., npx create-react-app my-app) |	Managing project dependencies (npm install react) |
 
 
-```
 15. Difference b/w package .json and package-lock .json
 16. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
 

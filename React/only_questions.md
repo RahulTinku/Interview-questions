@@ -170,7 +170,20 @@ These packages are installed when you run npm install in a development environme
 However, they are typically excluded when installing dependencies in a production environment (e.g., when using npm install --production).
 ```
 
-14. What is npx and npm?
+## What is npx and npm?
+```
+Both npx and npm are part of Node.js, but they serve different purposes.
+
+| Feature	| npx	| npm |
+| --------|-----|-----|
+| Purpose	| Runs Node.js packages without installing them globally	| Manages dependencies (install, update, remove) |
+| Installation | Comes with Node.js (since v5.2.0) | Comes with Node.js (Node Package Manager) |
+| Usage	| Executes commands from node_modules/.bin or fetches them temporarily | Installs packages locally (node_modules) or globally |
+| Global Installation Needed? |	No, runs temporary packages	| Yes, installs packages permanently |
+| Use Case | Running one-time CLI tools (e.g., npx create-react-app my-app) |	Managing project dependencies (npm install react) |
+
+
+```
 15. Difference b/w package .json and package-lock .json
 16. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
 

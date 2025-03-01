@@ -175,7 +175,7 @@ However, they are typically excluded when installing dependencies in a productio
 Both npx and npm are part of Node.js, but they serve different purposes.
 
 | Feature	| npx	| npm |
-| ------- | -------------------------------------------------------- | ---------------------------------------------- |
+| :------------ | :--------------------------------------------------------- | :----------------------------------------------------- |
 | Purpose	| Runs Node.js packages without installing them globally | Manages dependencies (install, update, remove) |
 | Installation | Comes with Node.js (since v5.2.0) | Comes with Node.js (Node Package Manager) |
 | Usage	| Executes commands from node_modules/.bin or fetches them temporarily | Installs packages locally (node_modules) or globally |

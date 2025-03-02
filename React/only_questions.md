@@ -182,7 +182,9 @@ Both npx and npm are part of Node.js, but they serve different purposes.
 | Use Case | Running one-time CLI tools (e.g., npx create-react-app my-app) |	Managing project dependencies (npm install react) |
 
 
-15. Difference b/w package .json and package-lock .json
+## Difference b/w package .json and package-lock .json
+The key differences between package.json and package-lock.json in a Node.js project are
+
 | Feature               | `package.json`                          | `package-lock.json`                     |
 |-----------------------|--------------------------------------|--------------------------------------|
 | **Purpose**          | Defines project dependencies, metadata, and scripts. | Locks exact dependency versions for consistency. |

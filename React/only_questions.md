@@ -183,6 +183,15 @@ Both npx and npm are part of Node.js, but they serve different purposes.
 
 
 15. Difference b/w package .json and package-lock .json
+| Feature               | `package.json`                          | `package-lock.json`                     |
+|-----------------------|--------------------------------------|--------------------------------------|
+| **Purpose**          | Defines project dependencies, metadata, and scripts. | Locks exact dependency versions for consistency. |
+| **Dependency Versions** | Allows flexible versions (`^`, `~`). | Stores exact installed versions. |
+| **Version Control**   | Must be committed to Git. | Should be committed for consistency. |
+| **Installation Behavior** | Used by `npm install` to fetch dependencies. | Ensures `npm ci` installs exact versions. |
+| **Readability**       | Human-readable for developers. | Machine-generated and detailed. |
+
+
 16. Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent()); 
 
 17. What is React.Fragment?

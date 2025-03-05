@@ -1,6 +1,19 @@
 ##  What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
 In React, the dependency array in useEffect determines when the effect should run.
-## 🚨 When to Use Dependency Arrays?
+
+🚀 Difference Between Various Dependency Array Usages
+1️⃣ No Dependency Array → Runs on Every Render
+🔹 The effect runs every time the component renders or re-renders.
+🔹 Can cause performance issues if expensive logic is inside.
+2️⃣ Empty Dependency Array [] → Runs Only Once (on Mount)
+🔹 Runs only on the initial render (like componentDidMount in class components).
+🔹 Useful for fetching data, setting up event listeners, or initializing state.
+3️⃣ With Dependencies [state, prop] → Runs When Dependencies Change
+🔹 The effect runs only when count changes.
+🔹 Useful for handling side effects based on state/prop changes (e.g., fetching new data when a user ID changes).
+
+
+#### 🚨 When to Use Dependency Arrays?
 
 | **Scenario** | **Dependency Array** | **Effect Runs When** |
 |-------------|------------------|----------------|

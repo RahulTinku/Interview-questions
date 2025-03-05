@@ -1,4 +1,13 @@
-1.  What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
+##  What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
+In React, the dependency array in useEffect determines when the effect should run.
+## 🚨 When to Use Dependency Arrays?
+
+| **Scenario** | **Dependency Array** | **Effect Runs When** |
+|-------------|------------------|----------------|
+| Fetch data on mount | `[]` | Only on initial render |
+| Update when prop/state changes | `[someState]` | When `someState` changes |
+| Run effect on every render | _(no array)_ | On every re-render |
+
 19. What if 2 components are given will the state change in one component will effect the other component’s state (child)?
 20. What is the use of return in useEffect ?
 21. Difference b/w client-side routing and server-side routing?

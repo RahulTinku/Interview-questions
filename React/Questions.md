@@ -33,7 +33,7 @@ If two components are given, whether a state change in one component affects the
 3. Context API (Global State Sharing)
   If multiple components need access to the same state without explicit prop drilling, React Context can be used.
      
-20. What is the use of return in useEffect ?
+## What is the use of return in useEffect ?
 21. Difference b/w client-side routing and server-side routing?
 
 22. Explain the concept of code splitting and its benefits in React.

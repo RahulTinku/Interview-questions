@@ -23,7 +23,16 @@ In React, the dependency array in useEffect determines when the effect should ru
 | Update when prop/state changes | `[someState]` | When `someState` changes |
 | Run effect on every render | _(no array)_ | On every re-render |
 
-19. What if 2 components are given will the state change in one component will effect the other component’s state (child)?
+## What if 2 components are given will the state change in one component will effect the other component’s state (child)?
+
+If two components are given, whether a state change in one component affects the other (child) depends on how the state is managed and shared between them.
+1. Independent State (No Effect)
+  If each component manages its own state separately using useState, then changing the state in one component will not affect the other.
+2. State Lifted to Parent (Effect Occurs)
+  If the state is managed in the parent component and passed as a prop to the child, then changing the state in one child can affect the other child (if they share the same state).
+3. Context API (Global State Sharing)
+  If multiple components need access to the same state without explicit prop drilling, React Context can be used.
+     
 20. What is the use of return in useEffect ?
 21. Difference b/w client-side routing and server-side routing?
 

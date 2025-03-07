@@ -34,7 +34,9 @@ If two components are given, whether a state change in one component affects the
   If multiple components need access to the same state without explicit prop drilling, React Context can be used.
      
 ## What is the use of return in useEffect ?
-21. Difference b/w client-side routing and server-side routing?
+The `return` statement within React's `useEffect` hook defines a cleanup function, which is executed before a component unmounts or before the effect is re-run due to dependency changes, serving to prevent memory leaks by canceling subscriptions, clearing timers, aborting network requests, and releasing other resources; this ensures that side effects are properly managed and don't persist beyond the component's lifecycle.
+
+## Difference b/w client-side routing and server-side routing?
 
 22. Explain the concept of code splitting and its benefits in React.
 23. How does React handle routing and navigation?

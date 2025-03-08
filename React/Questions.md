@@ -37,6 +37,21 @@ If two components are given, whether a state change in one component affects the
 The `return` statement within React's `useEffect` hook defines a cleanup function, which is executed before a component unmounts or before the effect is re-run due to dependency changes, serving to prevent memory leaks by canceling subscriptions, clearing timers, aborting network requests, and releasing other resources; this ensures that side effects are properly managed and don't persist beyond the component's lifecycle.
 
 ## Difference b/w client-side routing and server-side routing?
+The fundamental difference between client-side routing and server-side routing lies in where the decision of which content to display is made and executed:
+
+Server-Side Routing:
+- In server-side routing, every time a user navigates to a new page or URL, the browser sends a request to the server.   
+- The server then processes the request, determines which HTML page or content to send back, and sends the fully rendered page to the client.
+- This means a full page reload occurs with each navigation.
+- Historically, this was the standard approach.
+- SEO is generally better out of the box, as content is readily available to search engine crawlers.   
+Client-Side Routing:
+- With client-side routing, the initial page load fetches a single HTML page along with all the necessary JavaScript, CSS, and data.
+- When the user navigates to different "pages" within the application, JavaScript running in the browser intercepts these navigation requests.   
+- The JavaScript then dynamically updates the content of the page without requiring a full page reload.   
+- This provides a smoother, more responsive user experience, as transitions are faster.   
+- Client-side routing is common in single-page applications (SPAs) built with frameworks like React, Angular, and Vue.js.   
+- SEO can be more complex, requiring server side rendering or pre-rendering to be fully effective.
 
 22. Explain the concept of code splitting and its benefits in React.
 23. How does React handle routing and navigation?

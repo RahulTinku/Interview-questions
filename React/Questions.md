@@ -44,7 +44,8 @@ Server-Side Routing:
 - The server then processes the request, determines which HTML page or content to send back, and sends the fully rendered page to the client.
 - This means a full page reload occurs with each navigation.
 - Historically, this was the standard approach.
-- SEO is generally better out of the box, as content is readily available to search engine crawlers.   
+- SEO is generally better out of the box, as content is readily available to search engine crawlers.
+
 Client-Side Routing:
 - With client-side routing, the initial page load fetches a single HTML page along with all the necessary JavaScript, CSS, and data.
 - When the user navigates to different "pages" within the application, JavaScript running in the browser intercepts these navigation requests.   

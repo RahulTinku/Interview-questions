@@ -62,9 +62,9 @@ This is achieved using dynamic imports, primarily with React's lazy and Suspense
 
 Benefits:
 
-Improved Initial Load Time: By loading only essential code initially, the browser downloads less data, resulting in faster page loads and a better user experience.   
-Reduced Bundle Size: Smaller bundle sizes translate to faster download times, especially for users with slower internet connections.   
-Enhanced Performance: Code splitting reduces the main thread's workload, leading to smoother interactions and improved overall application performance. It prevents loading unneeded code, saving resources.   
+- Improved Initial Load Time: By loading only essential code initially, the browser downloads less data, resulting in faster page loads and a better user experience.   
+- Reduced Bundle Size: Smaller bundle sizes translate to faster download times, especially for users with slower internet connections.   
+- Enhanced Performance: Code splitting reduces the main thread's workload, leading to smoother interactions and improved overall application performance. It prevents loading unneeded code, saving resources.   
 
 
 23. How does React handle routing and navigation?

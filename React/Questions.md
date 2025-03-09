@@ -54,7 +54,19 @@ Client-Side Routing:
 - Client-side routing is common in single-page applications (SPAs) built with frameworks like React, Angular, and Vue.js.   
 - SEO can be more complex, requiring server side rendering or pre-rendering to be fully effective.
 
-22. Explain the concept of code splitting and its benefits in React.
+## Explain the concept of code splitting and its benefits in React.
+
+Code splitting in React is a technique that divides your application's code into smaller, manageable chunks. Instead of loading the entire application bundle at once, only the necessary code for the initially requested page or component is loaded. Subsequent components or pages are loaded on demand, as the user navigates or interacts with the application.   
+
+This is achieved using dynamic imports, primarily with React's lazy and Suspense components. lazy allows you to load components asynchronously, while Suspense provides a fallback UI (like a loading indicator) while the component is being fetched.
+
+Benefits:
+
+Improved Initial Load Time: By loading only essential code initially, the browser downloads less data, resulting in faster page loads and a better user experience.   
+Reduced Bundle Size: Smaller bundle sizes translate to faster download times, especially for users with slower internet connections.   
+Enhanced Performance: Code splitting reduces the main thread's workload, leading to smoother interactions and improved overall application performance. It prevents loading unneeded code, saving resources.   
+
+
 23. How does React handle routing and navigation?
 24. What are higher-order components (HOC) in React?
 25. What are controlled and uncontrolled components?

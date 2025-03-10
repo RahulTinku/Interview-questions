@@ -67,7 +67,16 @@ Benefits:
 - Enhanced Performance: Code splitting reduces the main thread's workload, leading to smoother interactions and improved overall application performance. It prevents loading unneeded code, saving resources.   
 
 
-23. How does React handle routing and navigation?
+## How does React handle routing and navigation?
+React routing, primarily managed by react-router-dom, is crucial for building Single-Page Applications (SPAs). SPAs avoid full page reloads, enhancing user experience through dynamic content updates.
+
+react-router-dom facilitates this by mapping URL paths to React components. The BrowserRouter component wraps the application, enabling URL management via the HTML5 history API. Routes acts as a container for individual Route definitions, each specifying a path and the corresponding element (component) to render.
+
+Navigation within the application is achieved through Link and NavLink components, preventing full page reloads. NavLink provides styling for active links. Programmatic navigation, such as after form submissions, is handled by the useNavigate hook.
+
+Dynamic routing, using route parameters (e.g., /users/:id), allows for flexible URL matching. These parameters can be accessed within the rendered components.
+
+In summary, React Router intercepts URL changes, matches them against defined routes, and renders the appropriate components, enabling smooth and efficient navigation within React applications.
 24. What are higher-order components (HOC) in React?
 25. What are controlled and uncontrolled components?
 26. Explain the concept of reconciliation in React.

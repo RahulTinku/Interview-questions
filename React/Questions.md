@@ -77,7 +77,15 @@ Navigation within the application is achieved through Link and NavLink component
 Dynamic routing, using route parameters (e.g., /users/:id), allows for flexible URL matching. These parameters can be accessed within the rendered components.
 
 In summary, React Router intercepts URL changes, matches them against defined routes, and renders the appropriate components, enabling smooth and efficient navigation within React applications.
-24. What are higher-order components (HOC) in React?
+
+## What are higher-order components (HOC) in React?
+A Higher-Order Component (HOC) is an advanced pattern in React that allows you to reuse component logic. It is a function that takes a component as an argument and returns a new component with added functionality.
+
+Why Use HOCs?
+- Code Reusability: Avoid duplicating logic across multiple components.
+- Separation of Concerns: Keep components clean and focused on UI.
+- Enhancing Components: Add additional behavior (e.g., authentication, data fetching, logging).
+
 25. What are controlled and uncontrolled components?
 26. Explain the concept of reconciliation in React.
 

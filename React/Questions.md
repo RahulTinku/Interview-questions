@@ -86,7 +86,12 @@ Why Use HOCs?
 - Separation of Concerns: Keep components clean and focused on UI.
 - Enhancing Components: Add additional behavior (e.g., authentication, data fetching, logging).
 
-25. What are controlled and uncontrolled components?
+## What are controlled and uncontrolled components?
+React's form handling involves controlled and uncontrolled components. `Controlled components` use React's state as the single source of truth. When a user inputs data, an onChange handler updates the state, reflecting the change in the UI. This allows real-time validation and dynamic control. 
+
+`Uncontrolled components`, conversely, let the DOM manage the form's state. Using refs, you access the element's value directly. While simpler for basic forms, this approach offers less control and makes real-time validation harder. Controlled components are generally preferred for their predictability and flexibility, especially in complex applications.
+
+
 26. Explain the concept of reconciliation in React.
 
 --- 

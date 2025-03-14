@@ -14,5 +14,5 @@ The HTML document type declaration is the first line of code in html document. I
 6. [WebSockets](https://dzone.com/refcardz/html5-websocket)
 7. **Geolocation:-** Now visitor can choose to share their physical location on web 
 8. **Drag & Drop**
-
+ 
   

@@ -4,7 +4,7 @@ In React, the dependency array in useEffect determines when the effect should ru
 🚀 Difference Between Various Dependency Array Usages
 
 1️⃣ No Dependency Array → Runs on Every Rende
-- 🔹 The effect runs every time the component renders or re-renders.
+- 🔹 The effect runs every time the component renders or re-renders. 
 - 🔹 Can cause performance issues if expensive logic is inside.
 
 2️⃣ Empty Dependency Array [] → Runs Only Once (on Mount)

@@ -16,5 +16,5 @@ As a best practice, try to use a component with onPush change detection strategy
 
 A dumb or presentational component must use async pipe with the onPush CD strategy.
 
-A smart component should pass observable data to the dumb component 
+A smart component should pass observable data to the dumb component
  

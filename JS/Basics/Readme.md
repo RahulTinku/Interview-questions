@@ -103,7 +103,7 @@ var result = arrOfObj.reduce((acc, item) => {
   return acc;
 }, []); //converting back to array from mapobject
 console.log(result);
-```
+``` 
 
 ###  Write a simple function (less than 160 characters) that returns a boolean indicating whether or not a string is a palindrome.
 

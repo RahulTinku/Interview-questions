@@ -6,7 +6,7 @@ var x = 10
 
 console.log(y)
 let y =20
-```
+``` 
 
 ### difference in let and var 
 

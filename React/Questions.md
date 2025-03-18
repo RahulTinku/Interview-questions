@@ -92,7 +92,13 @@ React's form handling involves controlled and uncontrolled components. `Controll
 `Uncontrolled components`, conversely, let the DOM manage the form's state. Using refs, you access the element's value directly. While simpler for basic forms, this approach offers less control and makes real-time validation harder. Controlled components are generally preferred for their predictability and flexibility, especially in complex applications.
 
 
-26. Explain the concept of reconciliation in React.
+## Explain the concept of reconciliation in React.
+Reconciliation is the process React uses to efficiently update the UI when the state or props of a component change. Instead of re-rendering the entire DOM, React determines what has changed and updates only the necessary parts. This is achieved using the Virtual DOM (VDOM) and a diffing algorithm.
+
+Why Is Reconciliation Important?
+✅ Improves Performance – Only updates what’s necessary.
+✅ Minimizes DOM Manipulations – Real DOM updates are expensive, so React avoids them when possible.
+✅ Creates a Smooth UI Experience – Helps React apps feel fast and responsive.
 
 --- 
 

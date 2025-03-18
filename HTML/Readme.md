@@ -4,7 +4,7 @@
 
 The HTML document type declaration is the first line of code in html document. It instructs the browser what version of HTML page is written in. This ensures that web pages parse this document in same way.
 
-## New features in HTML5
+## New features in HTML5 
 
 1. **New Sementic Elements**:- like <headers> <footers> <sections> etc. This give more information about the items in DOM. Headers will be displayed on the top and footer will be in the bottom.
 2. **New form fields**:- New addition to Input types like email, tel, etc. Which helps us for valdiation.
